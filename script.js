@@ -125,7 +125,7 @@ hideNextBtn.onclick = function () {
 function startTimerScreen() {
   revealScreen.classList.remove("active");
   timerScreen.classList.add("active");
-  startTimer(5);
+  startTimer(120);
 }
 
 // تایمر با صدا
@@ -168,3 +168,4 @@ if('serviceWorker' in navigator){
     .then(()=> console.log('Service Worker ثبت شد'))
     .catch(err=> console.log('Service Worker ثبت نشد', err));
 }
+

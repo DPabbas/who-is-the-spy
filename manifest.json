@@ -1,6 +1,6 @@
 {
   "name": "بازی جاسوس",
-  "short_name": "جاسوس",
+  "short_name": "جاسوس بازی",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0077cc",
@@ -23,5 +23,6 @@
     }
   ]
 }
+
 
 
